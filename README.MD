@@ -23,8 +23,8 @@ The following models have been implemented in this project:
 1. To clone this repository, run the following command in your terminal:
 
 ```bash
-git clone https://github.com/Arya920/Desease-prediction.git
-
+   git clone https://github.com/Arya920/Desease-prediction.git
+```
 
 2. Install the Required Packages:
 ```bash
@@ -86,9 +86,4 @@ The following table provides an overview of the error metrics for each model:
 |  LGBMClassifier              |  0.761905   |  0.640449  |  0.7125  |  0.674556|
 
 
-## Cloning the Repository
 
-To clone this repository, run the following command in your terminal:
-
-```bash
-git clone https://github.com/your_username/diabetes-prediction.git
