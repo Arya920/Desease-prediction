@@ -21,7 +21,7 @@ loaded_model = load_model('ANN_Model.h5')
 
 def predict_diabetes(data):
     prediction = loaded_model.predict(data)
-    prediction = (prediction >= 0.7).astype(int)
+    prediction = (prediction >= 0.9).astype(int)
     prediction = prediction[0,0]
     return prediction
 
@@ -48,14 +48,18 @@ with st.sidebar:
 
     
 st.markdown('please give the below details carefully.')
-pregnancies = st.number_input("Number of Pregnancies", min_value=0, value=0)
+Gender = st.radio("Select your gender:",("MALE","FEMALE"))
+if Gender == "FEMALE":
+    pregnancies = st.number_input("Number of Pregnancies", min_value=0, value=0)
+else:
+    pregnancies = 0
 glucose = st.number_input("Glucose Level", min_value=0, value=100)
 blood_pressure = st.number_input("Blood Pressure", min_value=0, value=70)
 skin_thickness = st.number_input("Skin Thickness", min_value=0, value=20)
 insulin = st.number_input("Insulin Level", min_value=0, value=80)
 bmi = st.number_input("BMI", min_value=0, value=25)
 diabetes_pedigree_function = st.number_input("Diabetes Pedigree Function", min_value=0.0, max_value=2.0, value=0.5, step=0.01)
-Age_Brack = st.number_input("Skin Thickness", min_value=1, value=8)
+Age_Brack = st.number_input("Age Bracket", min_value=1, value=8)
 
 if st.button("Check your result"):
     # Combine user inputs into a feature array
