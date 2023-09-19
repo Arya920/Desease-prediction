@@ -1,0 +1,20 @@
+/* styles.css */
+
+body {
+    background-image: url('D:\Desease prediction\images\01.jpg');
+    background-size: cover;
+}
+
+.header {
+    font-family: 'Showcard Gothic', cursive;
+    text-align: center;
+}
+
+.capital-letter {
+    color: pink;
+    font-size: 5em;
+}
+
+.small-letters {
+    font-size: 2.4em;
+}
