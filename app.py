@@ -39,8 +39,8 @@ with open("Header.html") as f:
 # <======================================== Sidebar for all details ==============================>
 st.sidebar.header("Diabetes prediction web application🩺")
 with st.sidebar:
-    st.markdown("**:green[This Web Application is built by Arya Chakraborty]**")
-    st.text("**:blue[Acknowledgement~]**")
+    st.markdown('<p style="color:green;">This Web Application is built by Arya Chakraborty</p>', unsafe_allow_html=True)
+    st.markdown('<p style="color:blue;">Acknowledgement~</p>', unsafe_allow_html=True)
     st.markdown("I would like to acknowledge Exposys Data Labs for providing me with the opportunity to work on this project as part of the Data Science internship program. The experience gained during this internship has been invaluable in honing my skills and understanding in the field of data science. I am grateful for the mentorship and support provided by the Exposys Data Labs team throughout the duration of this project.")
     st.markdown("[My GitHub](https://github.com/Arya920)")
     st.markdown("[My LinkedIn](https://www.linkedin.com/in/arya-chakraborty-95a8411b2/)")
@@ -70,9 +70,9 @@ if st.button("Check your result"):
 
     # Display the prediction
     if prediction == 0:
-        st.markdown("**:blue[According to my model you may have Diabetes.]**🥺")
+        st.markdown('<p style="color:black;">You may have Diabetes</p>', unsafe_allow_html=True)
         st_lottie(lottie_sad, key="sad")
     else:
-        st.write("**:blue[Mostly you do not have Diabetes. Enjoy]🙌")
+        st.write('<p style="color:black;">Mostly you do not have Diabetes </p>', unsafe_allow_html=True)
         st_lottie(lottie_happy, key="happy")
 
