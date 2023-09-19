@@ -25,10 +25,14 @@ with open("Header.html") as f:
     st.markdown(html, unsafe_allow_html=True)
 
 # <======================================== Sidebar for all details ==============================>
-st.sidebar.header("Diabetes prediction web application")
+st.sidebar.header("Diabetes prediction web application🩺")
 with st.sidebar:
     st.markdown("This Web Application is built by Arya Chakraborty")
-    st.markdown("[My GitHub](www.google.com)")
+    st.markdown("I would like to acknowledge Exposys Data Labs for providing me with the opportunity to work on this project as part of the Data Science internship program. The experience gained during this internship has been invaluable in honing my skills and understanding in the field of data science. I am grateful for the mentorship and support provided by the Exposys Data Labs team throughout the duration of this project.")
+    st.markdown("[My GitHub](https://github.com/Arya920)")
+    st.markdown("[My LinkedIn](https://www.linkedin.com/in/arya-chakraborty-95a8411b2/)")
+    st.markdown("[My Portfolio](https://arya920.github.io/My_Portfolio/)")
+
     pass
 
 pregnancies = st.number_input("Number of Pregnancies", min_value=0, value=0)
