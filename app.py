@@ -21,7 +21,7 @@ loaded_model = load_model('ANN_Model.h5')
 
 def predict_diabetes(data):
     prediction = loaded_model.predict(data)
-    prediction = (prediction >= 0.9).astype(int)
+    prediction = (prediction >= 0.4).astype(int)
     prediction = prediction[0,0]
     return prediction
 
@@ -73,8 +73,8 @@ if st.button("Check your result"):
     prediction = predict_diabetes(user_input_scaled)
 
     # Display the prediction
-    if prediction == 0:
-        st.markdown('<p style="color:black;">You may have Diabetes</p>', unsafe_allow_html=True)
+    if prediction == 1:
+        st.subheader('<p style="color:black;">You may have Diabetes</p>', unsafe_allow_html=True)
         st_lottie(lottie_sad, key="sad")
     else:
         st.write('<p style="color:black;">Mostly you do not have Diabetes </p>', unsafe_allow_html=True)
