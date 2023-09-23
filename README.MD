@@ -108,6 +108,6 @@ The following table provides an overview of the error metrics for each model:
 
 
 - [Direct Link to Web App](https://desease-prediction.streamlit.app/)
-- [Direct Link to Documentation](https://github.com/Arya920/Desease-prediction/blob/main/Documentation/Decease_Prediction.pdf)
+![Streamlit app view](images/08.png)
 
-![Streamlit app view](https://desease-prediction.streamlit.app/)
+- [Direct Link to Documentation](https://github.com/Arya920/Desease-prediction/blob/main/Documentation/Decease_Prediction.pdf)
