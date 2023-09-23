@@ -7,6 +7,10 @@ This repository contains code for a machine learning project focused on predicti
 
 - [Direct Link to Web App](https://desease-prediction.streamlit.app/)
 - [Direct Link to Documentation](https://github.com/Arya920/Desease-prediction/blob/main/Documentation/Decease_Prediction.pdf)
+
+### ABstract
+
+![Abstract](images/03.png)
 ## Models Implemented
 
 The following models have been implemented in this project:
@@ -71,6 +75,20 @@ The following models have been implemented in this project:
 - Artificial Neural Network (ANN)
   - Description: An Artificial Neural Network has been implemented for classification. It comprises an input layer, multiple hidden layers, and an output layer. The network is trained using backpropagation.
 
+
+## Implementation of the proposed model 
+
+- `Model Architecture`
+![Architecture](images/04.png)
+
+-`Model Building`
+![Architecture](images/05.png)
+
+
+- `Model implementation`
+![Architecture](images/06.png)
+
+![Architecture](images/07.png)
 ## Model Performance
 
 The following table provides an overview of the error metrics for each model:
