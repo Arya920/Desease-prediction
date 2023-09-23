@@ -1,6 +1,6 @@
 # Diabetes Disease Prediction Machine Learning Project
 
-![Header Image](images/02.jpg)
+![Header Image](images/02.jpeg)
 ## Overview
 
 This repository contains code for a machine learning project focused on predicting the likelihood of a person having diabetes. The project includes the implementation of various classification models and an Artificial Neural Network (ANN) for classification.
