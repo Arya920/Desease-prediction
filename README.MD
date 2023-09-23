@@ -1,5 +1,6 @@
 # Diabetes Disease Prediction Machine Learning Project
 
+[Header Image](https://github.com/Arya920/Desease-prediction/blob/main/images/01.jpg)
 ## Overview
 
 This repository contains code for a machine learning project focused on predicting the likelihood of a person having diabetes. The project includes the implementation of various classification models and an Artificial Neural Network (ANN) for classification.
