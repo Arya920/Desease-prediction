@@ -5,7 +5,7 @@
 This repository contains code for a machine learning project focused on predicting the likelihood of a person having diabetes. The project includes the implementation of various classification models and an Artificial Neural Network (ANN) for classification.
 
 - [Direct Link to Web App](https://desease-prediction.streamlit.app/)
-- [Direct Link to Documentation])(https://github.com/Arya920/Desease-prediction/blob/main/Documentation/Decease_Prediction.pdf)
+- [Direct Link to Documentation](https://github.com/Arya920/Desease-prediction/blob/main/Documentation/Decease_Prediction.pdf)
 ## Models Implemented
 
 The following models have been implemented in this project:
